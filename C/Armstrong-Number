@@ -5,13 +5,11 @@ int main(void)
 {
 	int n,i,digits,dig,k,pro=1,sum=0,j;
 	scanf("%d",&n);
-	//This loop selects every number from 1 to provided number.
+//This loop selects every number from 1 to provided number.
 	for(i=1;i<=n;i++)
 	{
 		digits=noofdigits(i);
-
 		k=i;//selected number is assigned to k because its value changes.
-
 		while(k>0)
 		{
 			dig=k%10;//each digit is found.
